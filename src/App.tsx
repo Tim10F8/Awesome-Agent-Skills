@@ -153,7 +153,7 @@ function App() {
                 <div className="header-inner">
                     <a href="/" className="logo">
                         <span className="logo-icon">Skills Map</span>
-                        <span className="logo-text">43 skills</span>
+                        <span className="logo-text">{skills.length} skills</span>
                     </a>
 
                     <div className="search-container">
