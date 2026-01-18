@@ -12,7 +12,7 @@
 
 **收录精选的 AI Agent Skills (Claude, OpenAI) 与 MCP Servers 资源导航站。**
 
-[在线预览](https://awesome-agent-skills.vercel.app/) · [提交 Skill](../../issues/new?template=submit-skill.yml) · [IDE 配置指南](./IDE_SETUP.md)
+[在线预览](https://skills.11.md/) · [提交 Skill](../../issues/new?template=submit-skill.yml) · [IDE 配置指南](./IDE_SETUP.md)
 
 </div>
 
