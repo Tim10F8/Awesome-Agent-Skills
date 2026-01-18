@@ -77,8 +77,10 @@ function App() {
     const [theme, setTheme] = useState<'dark' | 'light'>(() => {
         if (typeof window !== 'undefined') {
             const saved = localStorage.getItem('theme')
+            // 如果有保存的设置，使用保存的值
             if (saved === 'light' || saved === 'dark') return saved
-            return window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark'
+            // 否则默认使用 Dark Mode (忽略系统偏好，强制默认深色)
+            return 'dark'
         }
         return 'dark'
     })
