@@ -12,7 +12,7 @@
 
 **A curated navigation station for AI Agent Skills (Claude, OpenAI) & MCP Servers.**
 
-[Preview Live](https://skills.11.md/) · [Submit Skill](../../issues/new?template=submit-skill.yml) · [IDE Setup Guide](./IDE_SETUP.md) · [简体中文](./README_ZH.md)
+[Preview Live](https://awesome-agent-skills.vercel.app/) · [Submit Skill](../../issues/new?template=submit-skill.yml) · [IDE Setup Guide](./IDE_SETUP.md) · [简体中文](./README_ZH.md)
 
 </div>
 

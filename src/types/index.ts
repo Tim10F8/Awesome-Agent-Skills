@@ -25,7 +25,11 @@ export type SkillCategory =
     | 'collaboration'
     | 'security'
     | 'creative'
-    | 'research';
+    | 'research'
+    | 'ai-core'
+    | 'infrastructure'
+    | 'fundamentals'
+    | 'productivity';
 
 export const SOURCE_LABELS: Record<SkillSource, string> = {
     anthropic: 'Anthropic',
@@ -43,6 +47,10 @@ export const CATEGORY_LABELS: Record<SkillCategory, string> = {
     security: '安全系统',
     creative: '创意设计',
     research: '高级研究',
+    'ai-core': 'AI 核心',
+    infrastructure: '基础设施',
+    fundamentals: '编程基础',
+    productivity: '生产力工具',
 };
 
 export const SOURCE_COLORS: Record<SkillSource, string> = {
